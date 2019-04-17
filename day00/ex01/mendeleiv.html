@@ -1,864 +1,876 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Document</title>
-		<style media="screen">
-			body {
-				background-color: #846d91;
-			}
-			table {
-				min-width: 90%;
-				margin: auto;
-				padding: 0;
-			}
-			td,
-			th {
-				/* border: solid 1px black; */
-				padding: 0;
-				margin: 0;
-				border-radius: 20px;
-				width: 8.33%;
-			}
-			.la_ac td {
-				width: 6.66%;
 
-			}
-			th {
-				background-color: #ccfdff;
-			}
-			.ac,
-			.la,
-			table .la_ac {
-				background-color: #e8fffa;
-			}
-			.left {
-				text-align: left;
-				font-size: 0.8em;
-				margin-left: 10px;
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style media="screen">
+		body {
+			background-color: #846d91;
+		}
 
-			}
-			.middle {
-				text-align: center;
-				font-weight: bold;
-			}
-			.right {
-				text-align: right;
-				font-size: 0.8em;
-				margin-right: 10px;
-			}
-			.empty {
-				height: 3em;
-				background-color: #846d91;
-				border: 0;
-				border-radius: 0;
-			}
-			.la_ac {
-				min-width: 90%;
-				/* border: 0; */
-			}
-			.pink {
-				background-color: #ffe8fc;
-			}
-			.blue {
-				background-color: #d1e5ff;
-			}
+		table {
+			min-width: 90%;
+			margin: auto;
+			padding: 0;
+		}
 
-			table .elem {
-				background-color: #ffebe8;
-			}
-			.img {
-				max-width: 10px;
-				height: 10px;
-				padding: 0;
-				margin: 0;
-				background-color: white;
-			}
-			img {
-				max-width: 90%;
-				padding: 0;
-				margin: 0;
-				max-height: 90%;
-				opacity: 0.9;
-			}
-			figcaption {
-				text-align: center;
+		td,
+		th {
+			border-radius: 20px;
+			width: 8.33%;
+		}
 
-			}
-		</style>
-	</head>
-	<body>
-		<table>
-			<thead>
-				<tr>
-					<th class="small" rowspan="2">Период</th>
-					<th class="small" rowspan="2">Ряд</th>
-					<th colspan="10">Группы элементов</th>
-				</tr>
-				<tr>
-					<th>I</th>
-					<th>II</th>
-					<th>III</th>
-					<th>IV</th>
-					<th>V</th>
-					<th>VI</th>
-					<th>VII</th>
-					<th colspan="3">VIII</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class="elem">
-					<td class="period" contenteditable='true'>
-						<p class="middle">1</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">1</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle">(H)</p>
-						<p class="left"></p>
-					</td>
-					<td class="empty" colspan="5" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<!-- <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p
+		.la_ac td {
+			width: 6.66%;
+		}
+
+		th {
+			background-color: #ccfdff;
+		}
+
+		.ac,
+		.la,
+		table .la_ac {
+			background-color: #e8fffa;
+		}
+
+		.left {
+			text-align: left;
+			font-size: 0.8em;
+			margin-left: 10px;
+
+		}
+
+		.middle {
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.right {
+			text-align: right;
+			font-size: 0.6em;
+			margin-right: 10px;
+		}
+
+		.empty {
+			height: 3em;
+			background-color: #846d91;
+			border: 0;
+			border-radius: 0;
+		}
+
+		.la_ac {
+			min-width: 90%;
+		}
+
+		.pink {
+			background-color: #ffe8fc;
+		}
+
+		.blue {
+			background-color: #d1e5ff;
+		}
+
+		table .elem,
+		.yellow {
+			background-color: #ffebe8;
+		}
+
+		.img {
+			max-width: 10px;
+			height: 10px;
+			padding: 0;
+			margin: 0;
+			background-color: white;
+		}
+
+		img {
+			max-width: 90%;
+			padding: 0;
+			margin: 0;
+			max-height: 90%;
+			opacity: 0.9;
+		}
+
+		figcaption {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th class="small" rowspan="2">Период</th>
+				<th class="small" rowspan="2">Ряд</th>
+				<th colspan="10">Группы элементов</th>
+			</tr>
+			<tr>
+				<th>I</th>
+				<th>II</th>
+				<th>III</th>
+				<th>IV</th>
+				<th>V</th>
+				<th>VI</th>
+				<th>VII</th>
+				<th colspan="3">VIII</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="elem">
+				<td class="period" contenteditable='true'>
+					<p class="middle">1</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">1</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle">(H)</p>
+					<p class="left"></p>
+				</td>
+				<td class="empty" colspan="5" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+				<!-- <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p
 					class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> -->
-					<td class="pink" contenteditable='true'>
-						<p class="right">1,00794</p>
-						<p class="middle">H</p>
-						<p class="left">1</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">4,002602</p>
-						<p class="middle">He</p>
-						<p class="left">2</p>
-					</td>
-					<figure>
-						<td class="img" colspan="2" rowspan="3" contenteditable='true'>
-							<figcaption>
-								<img src="https://i.etsystatic.com/8102692/r/il/1a5bf0/1333769667/il_794xN.1333769667_mdaf.jpg" alt="Mendeleev">
+				<td class="pink" contenteditable='true'>
+					<p class="right">1,00794</p>
+					<p class="middle">H</p>
+					<p class="left">1</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">4,002602</p>
+					<p class="middle">He</p>
+					<p class="left">2</p>
+				</td>
+				<figure>
+					<td class="img" colspan="2" rowspan="3" contenteditable='true'>
+						<figcaption>
+							<img src="https://i.etsystatic.com/8102692/r/il/1a5bf0/1333769667/il_794xN.1333769667_mdaf.jpg" alt="Mendeleev">
 							</figcaption>
+					</td>
+				</figure>
+				<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
+			</tr>
+			<tr class="elem">
+				<td class="period" contenteditable='true'>
+					<p class="middle">2</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">2</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">6,9412</p>
+					<p class="middle">Li</p>
+					<p class="left">3</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">9,0122</p>
+					<p class="middle">Be</p>
+					<p class="left">4</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">10,812</p>
+					<p class="middle">B</p>
+					<p class="left">5</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">12,011</p>
+					<p class="middle">C</p>
+					<p class="left">6</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">14,0067</p>
+					<p class="middle">N</p>
+					<p class="left">7</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">15,9994</p>
+					<p class="middle">O</p>
+					<p class="left">8</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">18,9984</p>
+					<p class="middle">F</p>
+					<p class="left">9</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">20,179</p>
+					<p class="middle">Ne</p>
+					<p class="left">10</p>
+				</td>
+				<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
+			</tr>
+			<tr class="elem">
+				<td class="period" contenteditable='true'>
+					<p class="middle">3</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">3</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">22,98977</p>
+					<p class="middle">Na</p>
+					<p class="left">11</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">24,305</p>
+					<p class="middle">Mg</p>
+					<p class="left">12</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">26,98154</p>
+					<p class="middle">Al</p>
+					<p class="left">13</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">28,086</p>
+					<p class="middle">Si</p>
+					<p class="left">14</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">30,97376</p>
+					<p class="middle">P</p>
+					<p class="left">15</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">32,06</p>
+					<p class="middle">S</p>
+					<p class="left">16</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">35,453</p>
+					<p class="middle">Cl</p>
+					<p class="left">17</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">39,948</p>
+					<p class="middle">Ar</p>
+					<p class="left">18</p>
+				</td>
+				<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
+			</tr>
+			<tr class="elem">
+				<td rowspan="2" class="period" contenteditable='true'>
+					<p class="middle">4</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">4</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">39,0983</p>
+					<p class="middle">K</p>
+					<p class="left">19</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">40,08</p>
+					<p class="middle">Ca</p>
+					<p class="left">20</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">44,9559</p>
+					<p class="middle">Sc</p>
+					<p class="left">21</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">47,9</p>
+					<p class="middle">Ti</p>
+					<p class="left">22</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">50,9415</p>
+					<p class="middle">V</p>
+					<p class="left">23</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">51,996</p>
+					<p class="middle">Cr</p>
+					<p class="left">24</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">54,938</p>
+					<p class="middle">Mn</p>
+					<p class="left">25</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">55,847</p>
+					<p class="middle">Fe</p>
+					<p class="left">26</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">58,9332</p>
+					<p class="middle">Co</p>
+					<p class="left">27</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">58,7</p>
+					<p class="middle">Ni</p>
+					<p class="left">28</p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
+				<td class="row" contenteditable='true'>
+					<p class="middle">5</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">63,546</p>
+					<p class="middle">Cu</p>
+					<p class="left">29</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">65,38</p>
+					<p class="middle">Zn</p>
+					<p class="left">30</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">69,72</p>
+					<p class="middle">Ga</p>
+					<p class="left">31</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">72,59</p>
+					<p class="middle">Ge</p>
+					<p class="left">32</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">74,9216</p>
+					<p class="middle">As</p>
+					<p class="left">33</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">78,96</p>
+					<p class="middle">Se</p>
+					<p class="left">34</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">79,904</p>
+					<p class="middle">Br</p>
+					<p class="left">35</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">83,8</p>
+					<p class="middle">Kr</p>
+					<p class="left">36</p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<td rowspan="2" class="period" contenteditable='true'>
+					<p class="middle">5</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">6</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">85,4678</p>
+					<p class="middle">Rb</p>
+					<p class="left">37</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">87,62</p>
+					<p class="middle">Sr</p>
+					<p class="left">38</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">88,9059</p>
+					<p class="middle">Y</p>
+					<p class="left">39</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">91,20</p>
+					<p class="middle">Zr</p>
+					<p class="left">40</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">92,9064</p>
+					<p class="middle">Nb</p>
+					<p class="left">41</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">95,94</p>
+					<p class="middle">Mo</p>
+					<p class="left">42</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">97,907</p>
+					<p class="middle">Tc</p>
+					<p class="left">43</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">101,07</p>
+					<p class="middle">Ru</p>
+					<p class="left">44</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">102,90550</p>
+					<p class="middle">Rh</p>
+					<p class="left">45</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">106,42</p>
+					<p class="middle">Pd</p>
+					<p class="left">46</p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
+				<td class="row" contenteditable='true'>
+					<p class="middle">7</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">107,8682</p>
+					<p class="middle">Ag</p>
+					<p class="left">47</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">112,414(4)</p>
+					<p class="middle">Cd</p>
+					<p class="left">48</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">right</p>
+					<p class="middle">In</p>
+					<p class="left">left</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">114,82</p>
+					<p class="middle">Sn</p>
+					<p class="left">49</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">121,75</p>
+					<p class="middle">Sb</p>
+					<p class="left">51</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">127,60</p>
+					<p class="middle">Te</p>
+					<p class="left">52</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">126,90447</p>
+					<p class="middle">I</p>
+					<p class="left">53</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">131,29</p>
+					<p class="middle">Xe</p>
+					<p class="left">54</p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<td rowspan="2" class="period" contenteditable='true'>
+					<p class="middle">6</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">8</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">132,90545196(6)</p>
+					<p class="middle">Cs</p>
+					<p class="left">55</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">137,327</p>
+					<p class="middle">Ba</p>
+					<p class="left">56</p>
+				</td>
+				<td class="la" contenteditable='true'>
+					<p class="right">138,9055</p>
+					<p class="middle">La*</p>
+					<p class="left">57</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">178,49</p>
+					<p class="middle">Hf</p>
+					<p class="left">72</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">180,9479</p>
+					<p class="middle">Ta</p>
+					<p class="left">73</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">183,85</p>
+					<p class="middle">W</p>
+					<p class="left">74</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">186.207</p>
+					<p class="middle">Re</p>
+					<p class="left">75</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">190,2</p>
+					<p class="middle">Os</p>
+					<p class="left">76</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">192,22</p>
+					<p class="middle">Ir</p>
+					<p class="left">77</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">195,08</p>
+					<p class="middle">Pt</p>
+					<p class="left">78</p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
+				<td class="row" contenteditable='true'>
+					<p class="middle">9</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">196,966569(5)</p>
+					<p class="middle">Au</p>
+					<p class="left">79</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">200,59</p>
+					<p class="middle">Hg</p>
+					<p class="left">80</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">204,3833</p>
+					<p class="middle">Tl</p>
+					<p class="left">81</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">207,2</p>
+					<p class="middle">Pb</p>
+					<p class="left">left</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">208,98037</p>
+					<p class="middle">Bi</p>
+					<p class="left">83</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">208,9824</p>
+					<p class="middle">Po</p>
+					<p class="left">84</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">209,9871</p>
+					<p class="middle">At</p>
+					<p class="left">85</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">222,0176</p>
+					<p class="middle">Rn</p>
+					<p class="left">86</p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<td rowspan="2" class="period" contenteditable='true'>
+					<p class="middle">7</p>
+				</td>
+				<td class="row" contenteditable='true'>
+					<p class="middle">10</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">223,0197</p>
+					<p class="middle">Fr</p>
+					<p class="left">87</p>
+				</td>
+				<td class="pink" contenteditable='true'>
+					<p class="right">226,0254</p>
+					<p class="middle">Ra</p>
+					<p class="left">88</p>
+				</td>
+				<td class="ac" contenteditable='true'>
+					<p class="right">227,0278</p>
+					<p class="middle">Ac**</p>
+					<p class="left">89</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">261,11</p>
+					<p class="middle">Rf</p>
+					<p class="left">104</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">262,114</p>
+					<p class="middle">Db</p>
+					<p class="left">105</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[266]</p>
+					<p class="middle">Sg</p>
+					<p class="left">left</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[264]</p>
+					<p class="middle">Bh</p>
+					<p class="left">107</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[277]</p>
+					<p class="middle">Hs</p>
+					<p class="left">108</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[268]</p>
+					<p class="middle">Mt</p>
+					<p class="left">109</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[271]</p>
+					<p class="middle">Ds</p>
+					<p class="left">110</p>
+				</td>
+			</tr>
+			<tr class="elem">
+				<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
+				<td class="row" contenteditable='true'>
+					<p class="middle">11</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[272]</p>
+					<p class="middle">Rg</p>
+					<p class="left">111</p>
+				</td>
+				<td class="blue" contenteditable='true'>
+					<p class="right">[285]</p>
+					<p class="middle">Cn</p>
+					<p class="left">112</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[286]</p>
+					<p class="middle">Nh</p>
+					<p class="left">113</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[289]</p>
+					<p class="middle">Fl</p>
+					<p class="left">114</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[289]</p>
+					<p class="middle">Mc</p>
+					<p class="left">115</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[293]</p>
+					<p class="middle">Lv</p>
+					<p class="left">116</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[294]</p>
+					<p class="middle">Ts</p>
+					<p class="left">117</p>
+				</td>
+				<td contenteditable='true'>
+					<p class="right">[294]</p>
+					<p class="middle">Og</p>
+					<p class="left">118</p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+				<td class="empty" contenteditable='true'>
+					<p class="right"></p>
+					<p class="middle"></p>
+					<p class="left"></p>
+				</td>
+			</tr>
+			<tr class="empty"></tr>
+			<tr class="la_ac">
+				<table class="la_ac">
+					<tr class="la">
+						<td class="period yellow" contenteditable='true'>
+							<p class="middle">La*</p>
 						</td>
-					</figure>
+						<td class="row" contenteditable='true'>
+							<p class="right">140,90766(2)</p>
+							<p class="middle">Ce</p>
+							<p class="left">58</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">140,90765</p>
+							<p class="middle">Pr</p>
+							<p class="left">59</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">144,24</p>
+							<p class="middle">Nd</p>
+							<p class="left">60</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">144,9127</p>
+							<p class="middle">Pm</p>
+							<p class="left">61</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">150,36</p>
+							<p class="middle">Sm</p>
+							<p class="left">62</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">151,965</p>
+							<p class="middle">Eu</p>
+							<p class="left">63</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">157,25</p>
+							<p class="middle">Gd</p>
+							<p class="left">64</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">158,92534</p>
+							<p class="middle">Tb</p>
+							<p class="left">65</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">162,50</p>
+							<p class="middle">Dy</p>
+							<p class="left">66</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">164,93033(2)</p>
+							<p class="middle">Ho</p>
+							<p class="left">67</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">167,26</p>
+							<p class="middle">Er</p>
+							<p class="left">68</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">168,93422(2)</p>
+							<p class="middle">Tm</p>
+							<p class="left">69</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">173,04</p>
+							<p class="middle">Yb</p>
+							<p class="left">70</p>
+						</td>
+						<td class="blue" contenteditable='true'>
+							<p class="right">174,967</p>
+							<p class="middle">Lu</p>
+							<p class="left">71</p>
+						</td>
+					</tr>
+					<tr class="ac">
+						<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
+						<td class="row yellow" contenteditable='true'>
+							<p class="middle">Ac**</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">232,0377(4)</p>
+							<p class="middle">Th</p>
+							<p class="left">90</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">231,0359</p>
+							<p class="middle">Pa</p>
+							<p class="left">91</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">238,0289</p>
+							<p class="middle">U</p>
+							<p class="left">92</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">237,0482</p>
+							<p class="middle">Np</p>
+							<p class="left">93</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">244,0642</p>
+							<p class="middle">Pu</p>
+							<p class="left">94</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">243,0614</p>
+							<p class="middle">Am</p>
+							<p class="left">95</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">247,0703</p>
+							<p class="middle">Cm</p>
+							<p class="left">96</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">247,0703</p>
+							<p class="middle">Bk</p>
+							<p class="left">97</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">251,0796</p>
+							<p class="middle">Cf</p>
+							<p class="left">98</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">252,083</p>
+							<p class="middle">Es</p>
+							<p class="left">99</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">257,0951</p>
+							<p class="middle">Fm</p>
+							<p class="left">100</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">258,10</p>
+							<p class="middle">Md</p>
+							<p class="left">101</p>
+						</td>
+						<td contenteditable='true'>
+							<p class="right">259,1009</p>
+							<p class="middle">No</p>
+							<p class="left">102</p>
+						</td>
+						<td class="blue" contenteditable='true'>
+							<p class="right">262,11</p>
+							<p class="middle">Lr</p>
+							<p class="left">103</p>
+						</td>
+					</tr>
+				</table>
+			</tr>
+		</tbody>
+	</table>
+</body>
 
-					<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
-				</tr>
-				<tr class="elem">
-					<td class="period" contenteditable='true'>
-						<p class="middle">2</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">2</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">6,9412</p>
-						<p class="middle">Li</p>
-						<p class="left">3</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">9,0122</p>
-						<p class="middle">Be</p>
-						<p class="left">4</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">10,812</p>
-						<p class="middle">B</p>
-						<p class="left">5</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">12,011</p>
-						<p class="middle">C</p>
-						<p class="left">6</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">14,0067</p>
-						<p class="middle">N</p>
-						<p class="left">7</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">15,9994</p>
-						<p class="middle">O</p>
-						<p class="left">8</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">18,9984</p>
-						<p class="middle">F</p>
-						<p class="left">9</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">20,179</p>
-						<p class="middle">Ne</p>
-						<p class="left">10</p>
-					</td>
-					<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
-				</tr>
-				<tr class="elem">
-					<td class="period" contenteditable='true'>
-						<p class="middle">3</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">3</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">22,98977</p>
-						<p class="middle">Na</p>
-						<p class="left">11</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">24,305</p>
-						<p class="middle">Mg</p>
-						<p class="left">12</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">26,98154</p>
-						<p class="middle">Al</p>
-						<p class="left">13</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">28,086</p>
-						<p class="middle">Si</p>
-						<p class="left">14</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">30,97376</p>
-						<p class="middle">P</p>
-						<p class="left">15</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">32,06</p>
-						<p class="middle">S</p>
-						<p class="left">16</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">35,453</p>
-						<p class="middle">Cl</p>
-						<p class="left">17</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">39,948</p>
-						<p class="middle">Ar</p>
-						<p class="left">18</p>
-					</td>
-					<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
-				</tr>
-				<tr class="elem">
-					<td rowspan="2" class="period" contenteditable='true'>
-						<p class="middle">4</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">4</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">39,0983</p>
-						<p class="middle">K</p>
-						<p class="left">19</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">40,08</p>
-						<p class="middle">Ca</p>
-						<p class="left">20</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">44,9559</p>
-						<p class="middle">Sc</p>
-						<p class="left">21</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">47,9</p>
-						<p class="middle">Ti</p>
-						<p class="left">22</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">50,9415</p>
-						<p class="middle">V</p>
-						<p class="left">23</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">51,996</p>
-						<p class="middle">Cr</p>
-						<p class="left">24</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">54,938</p>
-						<p class="middle">Mn</p>
-						<p class="left">25</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">55,847</p>
-						<p class="middle">Fe</p>
-						<p class="left">26</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">58,9332</p>
-						<p class="middle">Co</p>
-						<p class="left">27</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">58,7</p>
-						<p class="middle">Ni</p>
-						<p class="left">28</p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
-					<td class="row" contenteditable='true'>
-						<p class="middle">5</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">63,546</p>
-						<p class="middle">Cu</p>
-						<p class="left">29</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">65,38</p>
-						<p class="middle">Zn</p>
-						<p class="left">30</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">69,72</p>
-						<p class="middle">Ga</p>
-						<p class="left">31</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">72,59</p>
-						<p class="middle">Ge</p>
-						<p class="left">32</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">74,9216</p>
-						<p class="middle">As</p>
-						<p class="left">33</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">78,96</p>
-						<p class="middle">Se</p>
-						<p class="left">34</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">79,904</p>
-						<p class="middle">Br</p>
-						<p class="left">35</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">83,8</p>
-						<p class="middle">Kr</p>
-						<p class="left">36</p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<td rowspan="2" class="period" contenteditable='true'>
-						<p class="middle">5</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">6</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">85,4678</p>
-						<p class="middle">Rb</p>
-						<p class="left">37</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">87,62</p>
-						<p class="middle">Sr</p>
-						<p class="left">38</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">88,9059</p>
-						<p class="middle">Y</p>
-						<p class="left">39</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">91,20</p>
-						<p class="middle">Zr</p>
-						<p class="left">40</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">92,9064</p>
-						<p class="middle">Nb</p>
-						<p class="left">41</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">95,94</p>
-						<p class="middle">Mo</p>
-						<p class="left">42</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Tc</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ru</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Rh</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Pd</p>
-						<p class="left">left</p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
-					<td class="row" contenteditable='true'>
-						<p class="middle">7</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">107,868</p>
-						<p class="middle">Ag</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Cd</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">In</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Sn</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Sb</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Te</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">I</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Xe</p>
-						<p class="left">left</p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<td rowspan="2" class="period" contenteditable='true'>
-						<p class="middle">6</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">8</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Cs</p>
-						<p class="left">left</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ba</p>
-						<p class="left">left</p>
-					</td>
-					<td class="la" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">La*</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Hf</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ta</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">W</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Re</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Os</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ir</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Pt</p>
-						<p class="left">left</p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
-					<td class="row" contenteditable='true'>
-						<p class="middle">9</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Au</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Hg</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Tl</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Pb</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Bi</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Po</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">At</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Rn</p>
-						<p class="left">left</p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<td rowspan="2" class="period" contenteditable='true'>
-						<p class="middle">7</p>
-					</td>
-					<td class="row" contenteditable='true'>
-						<p class="middle">10</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Fr</p>
-						<p class="left">left</p>
-					</td>
-					<td class="pink" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ra</p>
-						<p class="left">left</p>
-					</td>
-					<td class="ac" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ac**</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Rf</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Db</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Sg</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Bh</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Hs</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Mt</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ds</p>
-						<p class="left">left</p>
-					</td>
-				</tr>
-				<tr class="elem">
-					<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
-					<td class="row" contenteditable='true'>
-						<p class="middle">11</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Rg</p>
-						<p class="left">left</p>
-					</td>
-					<td class="blue" contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Cn</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Nh</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Fl</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Mc</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Lv</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Ts</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">Og</p>
-						<p class="left">left</p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td class="empty" contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-				</tr>
-				<tr class="empty"></tr>
-				<tr class="la_ac">
-					<table class="la_ac">
-						<tr class="la">
-							<td class="period" contenteditable='true'>
-								<p class="middle">La*</p>
-							</td>
-							<td class="row" contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-						</tr>
-						<tr class="ac">
-							<!-- <td class="period" contenteditable='true'> <p class="middle">middle</p> </td> -->
-							<td class="row" contenteditable='true'>
-								<p class="middle">Ac**</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-							<td contenteditable='true'>
-								<p class="right">right</p>
-								<p class="middle">middle</p>
-								<p class="left">left</p>
-							</td>
-						</tr>
-					</table>
-				</tr>
-			</tbody>
-		</table>
-	</body>
 </html>
