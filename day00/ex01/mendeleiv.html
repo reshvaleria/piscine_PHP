@@ -6,13 +6,34 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Document</title>
 		<style media="screen">
+			body {
+				background-color: #846d91;
+			}
 			table {
 				min-width: 90%;
 				margin: auto;
+				padding: 0;
+			}
+			td,
+			th {
+				/* border: solid 1px black; */
+				padding: 0;
+				margin: 0;
+				border-radius: 20px;
+			}
+			th {
+				background-color: #ccfdff;
+			}
+			.ac,
+			.la,
+			table .la_ac {
+				background-color: #e8fffa;
 			}
 			.left {
 				text-align: left;
 				font-size: 0.8em;
+				margin-left: 10px;
+
 			}
 			.middle {
 				text-align: center;
@@ -21,19 +42,53 @@
 			.right {
 				text-align: right;
 				font-size: 0.8em;
+				margin-right: 10px;
 			}
 			.empty {
 				height: 3em;
+				background-color: #846d91;
+				border: 0;
+				border-radius: 0;
+			}
+			.la_ac {
+				min-width: 90%;
+				/* border: 0; */
+			}
+			.pink {
+				background-color: #ffe8fc;
+			}
+			.small {
+				width: 2px;
+			}
+			table .elem {
+				background-color: #ffebe8;
+			}
+			.img {
+				max-width: 10px;
+				height: 10px;
+				padding: 0;
+				margin: 0;
+				background-color: white;
+			}
+			img {
+				max-width: 90%;
+				padding: 0;
+				margin: 0;
+				max-height: 90%;
+				opacity: 0.9;
+			}
+			figcaption {
+				text-align: center;
 
 			}
 		</style>
 	</head>
 	<body>
-		<table border="1">
+		<table>
 			<thead>
 				<tr>
-					<th rowspan="2">Период</th>
-					<th rowspan="2">Ряд</th>
+					<th class="small" rowspan="2">Период</th>
+					<th class="small" rowspan="2">Ряд</th>
 					<th colspan="10">Группы элементов</th>
 				</tr>
 				<tr>
@@ -55,51 +110,36 @@
 					<td class="row" contenteditable='true'>
 						<p class="middle">1</p>
 					</td>
-					<td contenteditable='true'>
+					<td class="pink" contenteditable='true'>
 						<p class="right"></p>
 						<p class="middle">(H)</p>
 						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
+					<td class="empty" colspan="5" contenteditable='true'>
 						<p class="right"></p>
 						<p class="middle"></p>
 						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right"></p>
-						<p class="middle"></p>
-						<p class="left"></p>
-					</td>
-					<td contenteditable='true'>
+					<!-- <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p
+					class="right"></p> <p class="middle"></p> <p class="left"></p> </td> <td contenteditable='true'> <p class="right"></p> <p class="middle"></p> <p class="left"></p> </td> -->
+					<td class="pink" contenteditable='true'>
 						<p class="right">1,00797</p>
 						<p class="middle">H</p>
 						<p class="left">1</p>
 					</td>
-					<td contenteditable='true'>
+					<td class="pink" contenteditable='true'>
 						<p class="right">right</p>
 						<p class="middle">He</p>
 						<p class="left">left</p>
 					</td>
-					<td colspan="2" rowspan="3" contenteditable='true'>
-						<p class="right">Относительная<br>атомная масса</p>
-						<p class="middle">Обозначение<br>элемента</p>
-						<p class="left">Атомный<br>номер</p>
-					</td>
+					<figure>
+						<td class="img" colspan="2" rowspan="3" contenteditable='true'>
+							<figcaption>
+								<img src="https://i.etsystatic.com/8102692/r/il/1a5bf0/1333769667/il_794xN.1333769667_mdaf.jpg" alt="Mendeleev">
+							</figcaption>
+						</td>
+					</figure>
+
 					<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
 				</tr>
 				<tr class="elem">
@@ -209,52 +249,52 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">K</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ca</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Sc</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ti</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">V</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Cr</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Mn</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Fe</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Co</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ni</p>
 						<p class="left">left</p>
 					</td>
 				</tr>
@@ -265,53 +305,53 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Cu</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Zn</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ga</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ge</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">As</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Se</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Br</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Kr</p>
 						<p class="left">left</p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
 				</tr>
 				<tr class="elem">
@@ -322,53 +362,53 @@
 						<p class="middle">6</p>
 					</td>
 					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="right">85,468Ac</p>
+						<p class="middle">Rb</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Sr</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Y</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Zr</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Nb</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Mo</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Tc</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ru</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Rh</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Pd</p>
 						<p class="left">left</p>
 					</td>
 				</tr>
@@ -378,54 +418,54 @@
 						<p class="middle">7</p>
 					</td>
 					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="right">107,868</p>
+						<p class="middle">Al</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Cd</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">In</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Sn</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Sb</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Te</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">I</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Xe</p>
 						<p class="left">left</p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
 				</tr>
 				<tr class="elem">
@@ -437,52 +477,52 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Cs</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ba</p>
+						<p class="left">left</p>
+					</td>
+					<td class="la" contenteditable='true'>
+						<p class="right">right</p>
+						<p class="middle">La*</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Hf</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ta</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">W</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Re</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Os</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ir</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Pt</p>
 						<p class="left">left</p>
 					</td>
 				</tr>
@@ -493,53 +533,53 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Au</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Hg</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Tl</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Pb</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Bi</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Po</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">At</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Rn</p>
 						<p class="left">left</p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
 				</tr>
 				<tr class="elem">
@@ -551,52 +591,52 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Fr</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ra</p>
+						<p class="left">left</p>
+					</td>
+					<td class="ac" contenteditable='true'>
+						<p class="right">right</p>
+						<p class="middle">Ac**</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Rf</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Db</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Sg</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Bh</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Hs</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Mt</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
-					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ds</p>
 						<p class="left">left</p>
 					</td>
 				</tr>
@@ -607,58 +647,58 @@
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Rg</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Cn</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Nh</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Fl</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Mc</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Lv</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Ts</p>
 						<p class="left">left</p>
 					</td>
 					<td contenteditable='true'>
 						<p class="right">right</p>
-						<p class="middle">middle</p>
+						<p class="middle">Og</p>
 						<p class="left">left</p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
-					<td contenteditable='true'>
-						<p class="right">right</p>
-						<p class="middle">middle</p>
-						<p class="left">left</p>
+					<td class="empty" contenteditable='true'>
+						<p class="right"></p>
+						<p class="middle"></p>
+						<p class="left"></p>
 					</td>
 				</tr>
 				<tr class="empty"></tr>
 				<tr class="la_ac">
-					<table border="1">
+					<table class="la_ac">
 						<tr class="la">
 							<td class="period" contenteditable='true'>
 								<p class="middle">La*</p>
