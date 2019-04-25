@@ -1,39 +1,44 @@
 <?php
+session_start();
+include('pages/head.php');
+include('pages/navigation.php');
+$user = 'root';
+$password = 'root';
+$host = 'localhost';
+$port = 3306;
+$db = 'onlineshop';
+$articles = 'articles';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Ароматы для дома</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
-    <meta charset="utf-8">
-</head>
-<body>
-<nav>
-    <ul>
-        <li><a href="basket.php">Корзина</a></li>
-        <li><a href="#">Личный кабинет</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Доставка и оплата</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Каталог</a>
-            <div class="dropdown-content">
-                <a href="catalogue.php">Все товары</a>
-                <a href="catalogue.php">Свечи</a>
-                <a href="catalogue.php">Диффузоры</a>
-                <a href="catalogue.php">Аксессуары</a>
-            </div>
-        </li>
-        <li class="logo"><a href="index.php">Smell of Happiness</a></li>
-    </ul>
-</nav>
-<footer>
-    <hr>
-    <p>ИП Белянкина Елена Юрьевна</p>
-    <p>ОГРНИП 318774600324841</p>
-    <a href="#top">Вернуться к началу страницы &raquo;</a>
-</footer>
-</body>
-</html>
+<?php
+function ft_get_items($items){
+    $i = 0;
+    while ($all_items[$i] = mysqli_fetch_assoc($items))
+        $i++;
+    return $all_items;
+}
+function ft_print_items($items)
+{
+    echo "<div><ul>";
+    foreach ($items as $v)
+    {
+        if($v[id])
+            echo "<li>" . $v[name] . " costs " . $v[price] . " rubles</li>";
+    }
+    echo "</ul></div>";
+}
+$category = 'candles';
+if ($category == 'all')
+    echo "<h2>Все категории</h2>";
+elseif ($category == 'candles')
+    echo "<h2>Свечи</h2>";
+elseif ($category == 'diff')
+    echo "<h2>Диффузоры</h2>";
+$mysqli = mysqli_connect($host, $user, $password, $db);
+$items = mysqli_query($mysqli,
+    "SELECT * FROM `articles` WHERE `category` = 'candles'");
+$items = ft_get_items($items);
+ft_print_items($items);
+?>
+<?php
+include('pages/footer.php');
+?>
