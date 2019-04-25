@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13dae639-4907-45e8-a79d-b39c09dd4e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rush00/basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rush00/catalogue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rush00/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush00/basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush00/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/catalogue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rush00/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rush00/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,30 +19,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rush00/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <element signature="e#1181#1188#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="55">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rush00/basket.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rush00/catalogue.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rush00/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="307">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -52,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="22" column="21" selection-start-line="22" selection-end-line="23" />
+            <state relative-caret-position="189">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,6 +76,7 @@
       <find>пери</find>
       <find>text-tr</find>
       <find>fon</find>
+      <find>c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,16 +88,17 @@
         <option value="$PROJECT_DIR$/rush00/index.html" />
         <option value="$PROJECT_DIR$/day00/ex01/mendeleiv.html" />
         <option value="$PROJECT_DIR$/rush00/style.css" />
+        <option value="$PROJECT_DIR$/rush00/basket.php" />
+        <option value="$PROJECT_DIR$/rush00/catalogue.php" />
         <option value="$PROJECT_DIR$/rush00/index.php" />
         <option value="$PROJECT_DIR$/rush00/styles/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1026" />
-    <option name="y" value="361" />
-    <option name="width" value="1401" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -105,34 +110,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="day00" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="day00" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
+              <item name="ex00" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="rush00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="rush00" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -194,17 +189,18 @@
       <workItem from="1556049402747" duration="538000" />
       <workItem from="1556102880518" duration="222000" />
       <workItem from="1556109197105" duration="10586000" />
+      <workItem from="1556142866746" duration="3854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13872000" />
+    <option name="totallyTimeSpent" value="17726000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1026" y="361" width="1401" height="1000" extended-state="0" />
+    <frame x="0" y="23" width="1366" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27520236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2794562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,7 +213,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -271,9 +267,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../барабаны/hello.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../барабаны/hello.php" />
     <entry file="file://$PROJECT_DIR$/day02/ex00/another_world.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -309,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="22" column="21" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/basket.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rush00/img/yankeecandle8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -329,23 +313,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rush00/basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rush00/catalogue.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rush00/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="e#1181#1188#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="55">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rush00/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="307">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
         </state>
       </provider>
     </entry>
