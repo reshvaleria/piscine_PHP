@@ -32,7 +32,7 @@ PRIMARY KEY (`id`), UNIQUE (`name`)) ENGINE = InnoDB;");
 mysqli_query($mysqli,
     "INSERT INTO `articles`
     (`id`, `name`, `category`, `price`, `description`)
-    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск/ \r\nCoconut Splash', 'candles',
+    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск0\r\n', 'candles',
     '1990',
     'Освежающий и чистый аромат спелых кокосов, с естественной тропической сладостью. \r\n\r\n
     Верхние ноты: Дыня, Кокосовая Вода, Манго \r\nСредние ноты: Кокос, Кокосовое Молоко \r\n
@@ -43,7 +43,7 @@ mysqli_query($mysqli,
 mysqli_query($mysqli,
     "INSERT INTO `articles`
     (`id`, `name`, `category`, `price`, `description`)
-    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск/ \r\nCoconut Splash1', 'candles',
+    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск1\r\n', 'candles',
     '1990',
     'Освежающий и чистый аромат спелых кокосов, с естественной тропической сладостью. \r\n\r\n
     Верхние ноты: Дыня, Кокосовая Вода, Манго \r\nСредние ноты: Кокос, Кокосовое Молоко \r\n
@@ -54,7 +54,7 @@ mysqli_query($mysqli,
 mysqli_query($mysqli,
     "INSERT INTO `articles`
     (`id`, `name`, `category`, `price`, `description`)
-    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск/ \r\nCoconut Splash2', 'candles',
+    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск2\r\n', 'candles',
     '1990',
     'Освежающий и чистый аромат спелых кокосов, с естественной тропической сладостью. \r\n\r\n
     Верхние ноты: Дыня, Кокосовая Вода, Манго \r\nСредние ноты: Кокос, Кокосовое Молоко \r\n
@@ -65,7 +65,7 @@ mysqli_query($mysqli,
 mysqli_query($mysqli,
     "INSERT INTO `articles`
     (`id`, `name`, `category`, `price`, `description`)
-    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск/ \r\nCoconut Splash5', 'candles',
+    VALUES (NULL, 'Ароматическая свеча\r\nYankee Candle\r\nКокосовый всплеск3\r\n', 'candles',
     '1990',
     'Освежающий и чистый аромат спелых кокосов, с естественной тропической сладостью. \r\n\r\n
     Верхние ноты: Дыня, Кокосовая Вода, Манго \r\nСредние ноты: Кокос, Кокосовое Молоко \r\n

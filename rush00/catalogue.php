@@ -16,13 +16,34 @@ function ft_get_items($items){
         $i++;
     return $all_items;
 }
+
 function ft_print_items($items)
 {
-    echo "<div><ul>";
+    echo "<div><ul class=\"products clearfix\">";
     foreach ($items as $v)
     {
         if($v[id])
-            echo "<li>" . $v[name] . " costs " . $v[price] . " rubles</li>";
+            echo "<li class=\"product-wrapper\">"
+                . "<a href=\"\" class=\"product\">"
+                . "<figure>"
+                . "<div class=\"product-photo\">"
+                . "<img src=\"img/YC/1.jpg\" alt=\"\">"
+//                . "</div>"
+//                . "</a>"
+                . "<figcaption>"
+                . "<p>"
+                . $v[name]
+                . " costs "
+                . $v[price]
+                . " rubles"
+                . "</p>"
+                . "</figcaption>"
+                . "</div>"
+                . "</figure>"
+                . "</a>"
+                . "</li>"
+            ;
+
     }
     echo "</ul></div>";
 }
