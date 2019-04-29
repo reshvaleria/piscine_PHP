@@ -6,33 +6,31 @@
 		<style>
 			body {
 				background-color: pink;
+				margin: 0;
 			}
 			h1 {
 				text-align: center;
 				color: white;
 			}
 			figure {
-				margin-left: 0;
-				margin-right: 0;
-				margin-bottom: 30px;
+				display: inline-block;
+				margin: auto;
 			}
 			figcaption {
 				text-align: center;
 			}
-			hr {
-				clear: left;
-			}
+
 			footer {
 				text-align: right;
 				font-family: monospace;
 				font-style: italic;
 			}
-			.left {
-				float: left;
-				box-sizing: border-box;
-			}
 			.img1 {
 				height: 200px;
+				display: inline;
+			}
+			.img {
+				text-align: center;
 			}
 		</style>
 	</head>
@@ -40,9 +38,8 @@
 	<body>
 		<h1>What the fu&#33;&#64;&#35;k? Which one is better&#9829;?</h1>
 		<div class="img">
-			<figure class="left">
-				<img
-					class="img1"
+			<figure>
+				<img class="img1"
 					src="https://upload.wikimedia.org/wikipedia/ru/thumb/0/07/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0_%C2%AB%D0%91%D0%B5%D1%80%D1%83%C2%BB.jpg/1200px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0_%C2%AB%D0%91%D0%B5%D1%80%D1%83%C2%BB.jpg"
 					alt="beru.ru">
 				<figcaption>
@@ -51,7 +48,7 @@
 					</a>
 				</figcaption>
 			</figure>
-			<figure class="left">
+			<figure>
 				<img class="img1" src="https://spasibosberbank.ru/storage/ozon_logo_0419.png" alt="ozon.ru">
 				<figcaption>
 					<a href="https://www.ozon.ru/">

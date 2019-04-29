@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13dae639-4907-45e8-a79d-b39c09dd4e8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day00/ex02/doft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day00/ex02/doft.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/delivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/pages/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/pages/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/pages/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rush00/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rush00/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day00/ex00/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex00/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,62 +29,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rush00/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rush00/install.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rush00/catalogue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rush00/delivery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rush00/basket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rush00/styles/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="252" selection-start-line="252" selection-end-line="252" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +46,9 @@
       <find>fon</find>
       <find>5.6</find>
       <find>c</find>
+      <find>figure</find>
+      <find>fig</find>
+      <find>.per</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,7 +58,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rush00/index.html" />
-        <option value="$PROJECT_DIR$/day00/ex01/mendeleiv.html" />
         <option value="$PROJECT_DIR$/rush00/style.css" />
         <option value="$PROJECT_DIR$/rush00/pages/head.php" />
         <option value="$PROJECT_DIR$/rush00/basket.php" />
@@ -126,19 +70,21 @@
         <option value="$PROJECT_DIR$/rush00/install.php" />
         <option value="$PROJECT_DIR$/rush00/catalogue.php" />
         <option value="$PROJECT_DIR$/rush00/styles/style.css" />
+        <option value="$PROJECT_DIR$/day00/ex01/mendeleiv.html" />
+        <option value="$PROJECT_DIR$/day00/ex00/basics.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1314" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,51 +101,24 @@
               <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="day00" type="462c0819:PsiDirectoryNode" />
-              <item name="ex00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day00" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="rush00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="rush00" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="rush00" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="rush00" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="ex02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -248,16 +167,17 @@
       <workItem from="1556102880518" duration="222000" />
       <workItem from="1556109197105" duration="10586000" />
       <workItem from="1556142866746" duration="37547000" />
+      <workItem from="1556529797109" duration="3326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51419000" />
+    <option name="totallyTimeSpent" value="54745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="23" width="1314" height="1337" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15181269" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30267295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,44 +273,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rush00/index.html" />
     <entry file="file://$PROJECT_DIR$/rush00/img/yankeecandle8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/sqlbase.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day00/ex01/mendeleiv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="155" column="140" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rush00/sqlbase.php" />
     <entry file="file://$PROJECT_DIR$/rush00/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -408,40 +299,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/install.php">
+    <entry file="file://$PROJECT_DIR$/rush00/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="868">
+          <caret line="190" column="22" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rush00/basket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="38">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rush00/delivery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="323">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rush00/catalogue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="685">
           <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rush00/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/rush00/install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rush00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex01/mendeleiv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="789" column="49" lean-forward="true" selection-start-line="789" selection-end-line="790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex02/doft.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex02/doft.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
