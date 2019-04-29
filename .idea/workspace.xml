@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13dae639-4907-45e8-a79d-b39c09dd4e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day00/ex02/doft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day00/ex02/doft.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day00/ex00/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex00/basics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex01/mendeleiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day00/ex02/doft.css" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex02/doft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day00/ex02/doft.html" beforeDir="false" afterPath="$PROJECT_DIR$/day00/ex02/doft.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,26 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day00/ex02/doft.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day00/ex02/doft.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="649">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +66,7 @@
       <find>figure</find>
       <find>fig</find>
       <find>.per</find>
+      <find>&lt;td</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,14 +88,17 @@
         <option value="$PROJECT_DIR$/rush00/install.php" />
         <option value="$PROJECT_DIR$/rush00/catalogue.php" />
         <option value="$PROJECT_DIR$/rush00/styles/style.css" />
-        <option value="$PROJECT_DIR$/day00/ex01/mendeleiv.html" />
         <option value="$PROJECT_DIR$/day00/ex00/basics.html" />
+        <option value="$PROJECT_DIR$/day00/ex01/mendeleiv.html" />
+        <option value="$PROJECT_DIR$/day00/ex02/doft.html" />
+        <option value="$PROJECT_DIR$/day00/ex02/doft.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="399" />
     <option name="y" value="23" />
-    <option name="width" value="1314" />
+    <option name="width" value="1949" />
     <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
@@ -101,7 +122,37 @@
               <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="ex00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="ex01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
               <item name="ex02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="ex02" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piscine_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piscine_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="ex00" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,17 +218,18 @@
       <workItem from="1556102880518" duration="222000" />
       <workItem from="1556109197105" duration="10586000" />
       <workItem from="1556142866746" duration="37547000" />
-      <workItem from="1556529797109" duration="3326000" />
+      <workItem from="1556529797109" duration="11544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54745000" />
+    <option name="totallyTimeSpent" value="62963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1314" height="1337" extended-state="0" />
+    <frame x="399" y="23" width="1949" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30267295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20188779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -190,7 +242,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32851407" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,23 +395,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day00/ex01/mendeleiv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="789" column="49" lean-forward="true" selection-start-line="789" selection-end-line="790" />
+        <state relative-caret-position="-1363">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day00/ex00/basics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="646">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day00/ex02/doft.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day00/ex02/doft.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day00/ex02/doft.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

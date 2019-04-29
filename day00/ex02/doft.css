@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #505050;
 }
@@ -34,24 +38,47 @@ body {
     /*margin-bottom: -7px;*/
     /*display: inline;*/
     float: left;
-    margin-left: 710px;
+    margin-left: 687px;
 
 }
 .main {
     margin-left: 263px;
     position: relative;
+    width: 1360px;
+    clear: both;
+
+}
+.center {
+    width: 1025px;
+}
+.left,
+.right,
+.center {
+    float: left;
 
 }
 .left {
 
-
 }
 .right {
-
 }
 .right,
 .left {
     height: 425px;
     width: 140px;
+}
+#reload,
+#close {
+    float: right;
+    height: 20px;
+    margin-right: 10px;
 
 }
+#reload {
+    margin-top: 9px;
+}
+#close {
+    margin-top: 72px;
+
+}
+
