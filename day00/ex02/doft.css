@@ -1,0 +1,57 @@
+body {
+    background-color: #505050;
+}
+
+.header,
+.right,
+.left,
+.center {
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #010101;
+
+
+}
+.header {
+    /*background-color: #909090;*/
+    /*border-radius: 10px;*/
+    width: 1420px;
+    height: 135px;
+    display: block;
+    margin: auto;
+    /*box-shadow: 10px 10px 5px #010101;*/
+}
+.header #header-img {
+    margin: 10px 10px 15px;
+    height: 110px;
+    float: left;
+
+}
+.header #loupe {
+    /*height: 130px;*/
+    /*!*text-align: right;*!*/
+    margin-top: 10px ;
+    /*margin-bottom: -7px;*/
+    /*display: inline;*/
+    float: left;
+    margin-left: 710px;
+
+}
+.main {
+    margin-left: 263px;
+    position: relative;
+
+}
+.left {
+
+
+}
+.right {
+
+}
+.right,
+.left {
+    height: 425px;
+    width: 140px;
+
+}

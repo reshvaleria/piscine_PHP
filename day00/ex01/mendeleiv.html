@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>mendeleiev</title>
+	<title>Document</title>
 	<style media="screen">
 		body {
 			background-color: #846d91;
@@ -13,12 +13,8 @@
 
 		table {
 			min-width: 90vw;
-			max-height: 90vh;
 			margin: auto;
 			padding: 0;
-		}
-		.main-table {
-			height: 90vh;
 		}
 
 		td,
@@ -60,7 +56,7 @@
 		}
 
 		.empty {
-			height: 1em;
+			height: 3em;
 			background-color: #846d91;
 			border: 0;
 			border-radius: 0;
@@ -85,10 +81,10 @@
 
 		.img {
 			max-width: 10px;
+			height: 10px;
 			padding: 0;
 			margin: 0;
 			background-color: white;
-			height: 100%;
 		}
 
 		img {
@@ -98,11 +94,15 @@
 			max-height: 90%;
 			opacity: 0.9;
 		}
+
+		figcaption {
+			text-align: center;
+		}
 	</style>
 </head>
 
 <body>
-	<table class="main-table">
+	<table>
 		<thead>
 			<tr>
 				<th class="small" rowspan="2">Период</th>
@@ -153,6 +153,7 @@
 					<td class="img" colspan="2" rowspan="3" contenteditable='true'>
 							<img src="https://i.etsystatic.com/8102692/r/il/1a5bf0/1333769667/il_794xN.1333769667_mdaf.jpg" alt="Mendeleev">
 					</td>
+				<!-- <td contenteditable='true'> <p class="right">right</p> <p class="middle">middle</p> <p class="left">left</p> </td> -->
 			</tr>
 			<tr class="elem">
 				<td class="period" contenteditable='true'>
