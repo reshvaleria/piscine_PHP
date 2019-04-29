@@ -1,197 +1,197 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    background-color: #505050;
+	background-color: #505050;
 }
 
 .everything {
-    width: 1890px;
-    height: 911px;
-    margin: auto;
+	width: 1890px;
+	height: 911px;
+	margin: auto;
 }
 
+.center,
 .header,
-.right,
 .left,
-.center {
-    background-color: #909090;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #010101;
+.right {
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #010101;
 }
 
 .header {
-    width: 1420px;
-    height: 135px;
-    display: block;
-    margin: auto;
+	width: 1420px;
+	height: 135px;
+	display: block;
+	margin: auto;
 }
 
 .header #header-img {
-    margin: 10px 10px 15px;
-    height: 110px;
-    float: left;
-
+	margin: 10px 10px 15px;
+	height: 110px;
+	float: left;
 }
 
 .header #loupe {
-    margin-top: 10px ;
-    float: left;
-    margin-left: 687px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 687px;
 }
 
 .main {
-    position: relative;
-    width: 1360px;
-    height: 600px;
-    clear: both;
-    margin-left: 265px;
-    float: left;
+	position: relative;
+	width: 1360px;
+	height: 600px;
+	clear: both;
+	margin-left: 265px;
+	float: left;
 }
 
 .center {
-    width: 1020px;
-    margin-left: 30px;
-    height: 582px;
+	width: 1020px;
+	margin-left: 30px;
+	height: 582px;
 }
 
 .center img {
-    padding: 0;
-    margin: 10px;
-    width: 98%;
-    height: 562px;
+	padding: 0;
+	margin: 10px;
+	width: 98%;
+	height: 562px;
 }
 
+.center,
 .left,
-.right,
-.center {
-    float: left;
+.right {
+	float: left;
 }
 
 .left {
-    z-index: 1000;
+	z-index: 1000;
 }
 
 #brick {
-    box-sizing: unset;
-    width: 120px;
-    height: 70px;
-    background-image: url("resources/brick.jpg");
-    padding: 0;
-    float: left;
-    margin: 0 0 5px 10px ;
+	box-sizing: unset;
+	width: 120px;
+	height: 70px;
+	background-image: url("resources/brick.jpg");
+	padding: 0;
+	float: left;
+	margin: 0 0 5px 10px;
 }
 
 .left img,
 .right img {
-    margin: 0 0 5px 35px ;
-    width: 70px;
-    height: 70px;
+	margin: 0 0 5px 35px;
+	width: 70px;
+	height: 70px;
 }
 
 #border {
-    border: 5px solid red;
+	border: 5px solid red;
 }
 
 #top,
 #top2 {
-    margin-top: 18px;
+	margin-top: 18px;
 }
 
 .right {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
-.right,
-.left {
-    height: 425px;
-    width: 140px;
+.left,
+.right {
+	height: 425px;
+	width: 140px;
 }
 
-#reload,
-#close {
-    float: right;
-    height: 20px;
-    margin-right: 10px;
+#close,
+#reload {
+	float: right;
+	height: 20px;
+	margin-right: 10px;
 }
 
 #reload {
-    margin-top: 9px;
+	margin-top: 9px;
 }
 
 #close {
-    margin-top: 72px;
+	margin-top: 72px;
 }
 
 .form {
-    width: 520px;
-    height: 170px;
-    background-color: #a7fb96;
-    border-radius: 10px;
-    float: left;
-    margin-top: -75px;
-    margin-left: -65px;
-    box-shadow: 10px 10px 5px #010101;
-    padding-left: 8px;
-    padding-top: 15px;
-    font-family: arial;
-    font-size: 18px;
-    letter-spacing: 1px;
+	width: 520px;
+	height: 170px;
+	background-color: #a7fb96;
+	border-radius: 10px;
+	float: left;
+	margin-top: -75px;
+	margin-left: -65px;
+	box-shadow: 10px 10px 5px #010101;
+	padding-left: 8px;
+	padding-top: 15px;
+	font-family: arial;
+	font-size: 18px;
+	letter-spacing: 1px;
 }
+
 .form span.big {
-    font-family: Times;
-    font-size: 31px;
+	font-family: Times;
+	font-size: 31px;
 }
 
 .form span.shadow {
-    text-shadow: 5px 5px 5px #ff0000;
+	text-shadow: 5px 5px 5px #ff0000;
 }
 
 .form span.italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 .form form {
-    height: 22px;
+	height: 22px;
 }
 
 .form form input[type="text"] {
-    margin-left: 2px;
-    width: 380px;
-    border: 2px solid #9d969d;
-    border-bottom-color: #eeeeee;
-    border-right-color: #eeeeee;
-    height: 20px;
-    margin-top: 5px;
+	margin-left: 2px;
+	width: 380px;
+	border: 2px solid #9d969d;
+	border-bottom-color: #eeeeee;
+	border-right-color: #eeeeee;
+	height: 20px;
+	margin-top: 5px;
 }
 
 .form form input[type="submit"] {
-    border: 1px solid #a8a4a5;
-    border-radius: 1px;
-    background-color: #f4eff3;
-    margin-left: 4px;
-    height: 20px;
-    width: 70px;
-    text-align: center;
-    font-size:12px;
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
+	border: 1px solid #a8a4a5;
+	border-radius: 1px;
+	background-color: #f4eff3;
+	margin-left: 4px;
+	height: 20px;
+	width: 70px;
+	text-align: center;
+	font-size: 12px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
 }
 
 #chair {
-    display: block;
-    position: absolute;
-    margin-left: 330px;
-    margin-top: 335px;
-    width: 140px;
-    height: 230px;
+	display: block;
+	position: absolute;
+	margin-left: 330px;
+	margin-top: 335px;
+	width: 140px;
+	height: 230px;
 }
 
 #apple {
-    display: block;
-    position: absolute;
-    margin-left: 640px;
-    margin-top: 295px;
-    width: 150px;
-    height: 110px;
+	display: block;
+	position: absolute;
+	margin-left: 640px;
+	margin-top: 295px;
+	width: 150px;
+	height: 110px;
 }
