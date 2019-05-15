@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		body {
+			font: 1em/1.5 'Open Sans', sans-serif;
+			background-color: #fefdff;
+			text-align: center;
+		}
+		h1 {
+			font-size: 70px;
+			color: #3A3A3A;
+			font-family: 'Lobster', cursive;
+			letter-spacing: 4px;
+		}
+		form {
+			margin: 10px auto;
+		}
+		#sign, #first, #second, #submit {
+			font-size: 24px;
+			margin: auto;
+			color: #fefdff;
+		}
+		#first, #second, #submit {
+			background-color: #c0c0c0;
+			border-radius: 20px;
+			text-align: center;
+		}
+		#sign {
+			width: 50px;
+			background-color: #aaaaaa;
+		}
+	</style>
+	<title>Calculator</title>
+</head>
+<body>
+<h1>Calculator</h1>
+<form>
+	<input type="text" id="first">
+	<select name="" id="sign">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="/">/</option>
+		<option value="*">*</option>
+		<option value="%">%</option>
+	</select>
+	<input type="text" id="second">
+	<input type="submit" id="submit" onclick="calculator()" value="Try me!">
+	<script>
+		setInterval(function () {
+			alert('Please, use me...');
+		}, 30000);
+		function isNumeric(n) {
+			return !isNaN(parseFloat(n)) && isFinite(n);
+		}
+		function calculator() {
+			if (isNumeric(first.value) && isNumeric(second.value) &&
+				parseInt(second.value) >= 0 && parseInt(first.value) >= 0) {
+				const firstv = parseInt(first.value);
+				const secondv = parseInt(second.value);
+				let res;
+				switch (sign.value) {
+					case '+':
+						res = firstv + secondv;
+						break;
+					case '-':
+						res = firstv - secondv;
+						break;
+					case '*':
+						res = firstv * secondv;
+						break;
+					case '/':
+						res = (secondv === 0) ?
+							'It’s over 9000!' : firstv / secondv;
+						break;
+					case '%':
+						res = (secondv === 0) ?
+							'It’s over 9000!' : firstv % secondv;
+						break;
+				}
+				console.log(res);
+				alert(res);
+			} else
+				alert('Error :(');
+		}
+	</script>
+</form>
+</body>
+</html>

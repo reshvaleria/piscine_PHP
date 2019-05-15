@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: wjeyne-d <wjeyne-d@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/04/30 12:48:19 by wjeyne-d          #+#    #+#             */
+/*   Updated: 2019/04/30 14:00:54 by wjeyne-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 body {
 	background-color: #846d91;
 }
@@ -10,9 +22,9 @@ table {
 
 td,
 th {
-	border-radius: 1vw ;
+	border-radius: 1vw;
 	width: 8.33vw;
-    height: 5.5vh;
+	height: 5.5vh;
 }
 
 .la_ac td {
@@ -21,8 +33,8 @@ th {
 
 th {
 	background-color: #ccfdff;
-    font-size: 1vw;
-    line-height: 1vh;
+	font-size: 1vw;
+	line-height: 1vh;
 }
 
 .ac,
@@ -30,32 +42,34 @@ th {
 table .la_ac {
 	background-color: #e8fffa;
 }
+
 .left,
 .middle,
 .right {
-    margin: 0;
+	margin: 0;
 }
+
 .left {
 	text-align: left;
 	font-size: 0.5vw;
-    margin-right: 0px;
-    padding-left: 7%;
-    line-height: 2vh;
+	margin-right: 0;
+	padding-left: 7%;
+	line-height: 2vh;
 }
 
 .middle {
 	text-align: center;
 	font-weight: bold;
-    font-size: 0.8vw;
-    line-height: 2vh;
+	font-size: 0.8vw;
+	line-height: 2vh;
 }
 
 .right {
 	text-align: right;
 	font-size: 0.5vw;
-	margin-right: 0px;
-    padding-right: 7%;
-    line-height: 2vh;
+	margin-right: 0;
+	padding-right: 7%;
+	line-height: 2vh;
 }
 
 .empty {
@@ -84,14 +98,14 @@ table .elem {
 
 .img {
 	background-color: white;
-    padding: 1%;
-    margin: 1%;
+	padding: 1%;
+	margin: 1%;
 }
 
 img {
 	width: 16vw;
-    height: 16vh;
-    opacity: 0.9;
+	height: 16vh;
+	opacity: 0.9;
 }
 
 figcaption {

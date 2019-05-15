@@ -10,11 +10,11 @@ while (true) {
             echo "The number " . $something . " is even\n";
         }
     } else {
+        if (feof(STDIN)) {
+            echo "\n";
+            break;
+        }
         echo "'$something' is not a number\n";
     }
-    if (feof(STDIN)) {
-        echo "\n";
-        break;
-    }
 }
-//исправить контрл д
+?>

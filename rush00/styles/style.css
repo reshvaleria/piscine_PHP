@@ -48,7 +48,7 @@ nav li {
 }
 
 nav li a,
-.dropbtn {
+.dropdown_nav {
     display: inline-block;
     color: #f6edef;
     text-align: center;
@@ -57,7 +57,7 @@ nav li a,
 }
 
 nav li a:hover,
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropdown_nav {
     background-color: #b3a4a7;
 }
 
@@ -187,13 +187,9 @@ footer ul {
     font-size: 1em;
     line-height: 1.4em;
     height: 5.6em;
-    /*text-align: center;*/
-    /*height: 4.2em;*/
-    /*height: 2.8em;*/
     overflow: hidden;
     display: block;
     margin: 0 20px 20px 0;
-    /*text-align: justify;*/
     font-weight: lighter;
 }
 
@@ -232,18 +228,93 @@ footer ul {
     padding: 2%;
     vertical-align: top;
 }
+.table td {
+    width: 50%;
+}
 
+.database{
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #6e565d;
+    border-radius: 3px;
+}
+.dtatabase td {
+    padding: 0;
+    margin: 0;
+
+}
 .products_section{
 padding: 0 5% 0;
 }
-
 .small_line{
     text-align: center;
     width: 20vw;
 }
-
 a:hover {
     color: rgba(8, 0, 19, 0.6);
+}
+.product_full {
+    width: 50vw;
+    /* float: left; */
+    border: 1px solid #6e565d;
+    border-radius: 3px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.product_description {
+    /* width: 40vw; */
+    margin: auto;
+/* float: left; */
+    /*border: 1px solid #6e565d;*/
+    /*border-radius: 3px;*/
+    /*background: #fff;*/
+    /* margin: 20px 10px; */
+    margin: auto;
+    max-width: 50%;
+    
+}
+
+.product_full img {
+    /* position: absolute; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3%;*/
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    transition: transform .4s ease-out;
+}
+.button {
+    height: 100%;
+    text-align: center;
+    display: block;
+    border: 1px solid #6e565d;
+    border-radius: 3px;
+    background: #fff;
+    color: #3A3A3A;
+    font-size: 1em;
+    line-height: 1.4em;
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+}
+.product_description .price{
+    text-align: right;
+    margin: 0 20px 0 0;
+    color: #86678f;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.registration {
+    width: 25%;
+    height: 30px;
+    font-size: 15px;
 }
 
 @media only screen and (min-width: 450px) {

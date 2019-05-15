@@ -1,21 +1,26 @@
 #!/usr/bin/php
 <?php
-function ft_print_arr($newarr){
-  sort($newarr);
-  for ($i = 0; $i < count($newarr); $i++)
-    if ($newarr[$i] != "")
-      echo $newarr[$i] . "\n";
+function ft_array_split($str) {
+	$spaces = array("\t", "\n", "\v", "\f", "\r", " ");
+	$arr = array();
+	foreach ($spaces as $k=>$v) {
+		$arr = explode($v, $str);
+		$str = implode($spaces[$k + 1], $arr);
+	}
+	return ($arr);
 }
-
+function ft_print_arr($arr){
+	sort($arr);
+	foreach ($arr as $v){
+		if ($v != "")
+			echo $v . "\n";
+	}
+}
 if ($argc > 1) {
-  for ($i = 1; $i < $argc; $i++) {
-    $arr[$i] = explode(" ", $argv[$i]);
-    for ($x = 0; $x < count($arr[$i]); $x++) {
-      $newarr = ($i != 1) ? array_merge($tmparr, $arr[$i])
-      : $newarr = $arr[$i];
-    }
-    $tmparr = $newarr;
-  }
-  ft_print_arr($newarr);
+	$arr = $argv;
+	unset($arr[0]);
+	$str = implode(" ", $arr);
+	$arr = ft_array_split($str);
+	ft_print_arr($arr);
 }
 ?>

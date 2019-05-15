@@ -1,6 +1,6 @@
-#!/usr/bin/env php
+#!/usr/bin/php
 <?php
 for($x = 1; $x <= 1000; $x++)
-	echo "X";
+    echo "X";
 echo "\n";
 ?>
